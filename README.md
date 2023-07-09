@@ -13,6 +13,10 @@
 ## Exploits
 1. Kernel Exploits - https://github.com/lucyoa/kernel-exploits
 
+## Escalation Path: Capabilities
+1. `getcap -r / 2>/dev/null`
+   - If it has `cap_setuuid+ep` present
+
 
 # Examples: 
 1. wget example - https://veteransec.com/2018/09/29/hack-the-box-sunday-walkthrough/
