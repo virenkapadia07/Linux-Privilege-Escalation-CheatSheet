@@ -2,6 +2,7 @@
 
 ## Commands for Linux Privilege Escalation
 1. https://gtfobins.github.io/
+2. For finding SUID: `find / -perm -u=s -type f 2>/dev/null`
 
 ## Tools to identify weakness
 1. LinPeas - https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/linPEAS
